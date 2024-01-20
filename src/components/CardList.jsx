@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './Card'; // Update the path based on your project structure
 import data from '../data';
 
-export default function Cardlist() {
+export default function CardList() {
   const cards = data.map(item => (
     <Card
       key={item.id}

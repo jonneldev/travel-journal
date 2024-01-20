@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import Cardlist from './components/Cardlist'
+import CardList from './components/CardList'
 
 export default function App() {
   return (
     <div>
       <Navbar />
-      <Cardlist />
+      <CardList />
     </div>
   )
 }
