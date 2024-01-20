@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-family: Inter;
+  font-style: normal;
+}
+
+nav {
+  background: linear-gradient(to right, #0072ff, #00c6ff); /* Ocean Blue gradient */
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.nav--logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+
+.nav--text {
+  color: #FFF;
+  font-size: 14.461px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.085px;
+}
+
+.card {
+  display: flex;
+  margin-top: 45px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.card--image {
+  margin-right: 15px;
+  width: 125px;
+  height: 168px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.location--icon {
+  width: 7px;
+  height: 9.545px;
+  color: #F55A5A;
+}
+
+.location--text {
+  width: 40px;
+  height: 10px;
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.741px;
+  margin-left: 5px;
+  margin-right: 8px;
+}
+
+.map--location {
+  width: 106px;
+  height: 13px;
+  color: #918E9B;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.card--details {
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card--title {
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 25px;
+  height: 40px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.travel--date {
+  color: #2B283A;
+  font-size: 10.24px;
+  height: 11px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.travel--description {
+  color: #2B283A;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+}
+
+hr {
+  background: #F5F5F5;
+  height: 1px;
+  margin-top: 18px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
